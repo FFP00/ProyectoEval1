@@ -145,13 +145,13 @@ public class Practica6 extends java.awt.Frame {
 
     private void ControlBotonGenerar(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ControlBotonGenerar
         for (int i = 0; i < lIzquierda.getItemCount() ; i++) {
-            int num = (int) (Math.random() * 100+1);
+            int num = (int) (Math.random() * 100+1); //He comentado estas lineas
             if (num <= 60) {
-                    lDerecha.add(lIzquierda.getItem(i)+" 1 ");
+                    lDerecha.add(lIzquierda.getItem(i)+" 1 "); //He comentado estas lineas
             }else if(num <= 90){
-                     lDerecha.add(lIzquierda.getItem(i)+" X ");
+                     lDerecha.add(lIzquierda.getItem(i)+" X "); //He comentado estas lineas
             }else{
-                    lDerecha.add(lIzquierda.getItem(i)+" 2 ");
+                    lDerecha.add(lIzquierda.getItem(i)+" 2 "); //He comentado estas lineas
             }
         }
     }//GEN-LAST:event_ControlBotonGenerar
